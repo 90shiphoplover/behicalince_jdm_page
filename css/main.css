@@ -1,0 +1,164 @@
+/* Navbar görünümü */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar .nav-item {
+  margin-left: 20px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #ccc;
+}
+
+/* Breadcrumb görünümü */
+.breadcrumb {
+  background-color: #333;
+  color: red;
+  font-size: 14px;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: red;
+}
+
+.breadcrumb .breadcrumb-item .breadcrumb-link {
+  color: red;
+}
+
+.breadcrumb .breadcrumb-item .breadcrumb-link:hover {
+  color: red;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background:gray;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+
+/* Carousel (slider) görünümü */
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+}
+
+.carousel .carousel-control-prev:hover,
+.carousel .carousel-control-next:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+.carousel .carousel-item img {
+  width: 80%;
+  height: auto;
+}
+
+.d-block w-100{
+	max-width:300px;
+}
+
+/* İletişim sayfası görünümü */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.contact-form h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #333;
+  box-shadow: none;
+}
+
+.contact-form textarea.form-control {
+  height: 200px;
+  resize: none;
+}
+
+.contact-form button[type="submit"] {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  background-color: #333;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #ccc;
+}
+
+.copyright {
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
+}
